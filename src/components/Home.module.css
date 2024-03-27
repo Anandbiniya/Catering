@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    padding: 50px;
+   background-color: rgb(142, 142, 9);
+
+
+    
+}
+.navbar>div>img{
+    object-fit: cover;
+    
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+   
+}
