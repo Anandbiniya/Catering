@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
 import Main from './components/Main';
+import ContactUs from './components/ContactUs';
 // import Ex from './components/ex';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
      <Home/>
    <Main/>
+   <ContactUs/>
     </div>
   );
 }

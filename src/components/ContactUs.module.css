@@ -1,0 +1,32 @@
+/* ContactUs.module.css */
+
+.contact-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info > div {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+  }
+  

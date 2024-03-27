@@ -1,4 +1,4 @@
-.main{
+/* .main{
     width: 100%;
     height: 650px;
 }
@@ -14,11 +14,60 @@
 }
 .what_we_do >div{
     width: 33%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     height: 100%;
     margin: 10px;
-}
+/* }
 .what_we_do >div >img{
     width: 90%;
     height: 80%;
 }
+.what_we_do >div > h4{
+    font-family:  Arial, sans-serif;
+    color: rgb(186, 94, 28);
+    font-size: medium;
+    font-weight: 700;
+}
+.header{
+    margin: 30px 0px 0px 0px;
+    color: rgb(25, 55, 55);
+    font-size: 30px;
+} */ 
+/* Main.module.css */
+
+/* Styles for the hero section */
+.heroContainer {
+    position: relative;
+  }
+  
+  .heroImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .heroText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 253, 255);
+    font-size: 30px;
+  }
+  /* Main.module.css */
+
+.what_we_do {
+    display: flex; /* Use flexbox */
+    justify-content: space-around; /* Distribute space between items */
+  }
+  
+  .what_we_do > div {
+    flex: 1; /* Each box takes equal space */
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  .what_we_do > div img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+  }
+  
