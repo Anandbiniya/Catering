@@ -1,18 +1,27 @@
 .navbar{
     display: flex;
     justify-content:space-between;
-    padding: 50px;
+    padding: 10px;
    background-color: rgb(142, 142, 9);
 
 
     
 }
+
 .navbar>div>img{
-    object-fit: cover;
+   width: 20%;
+   
     
 }
 .about{
     display: flex;
     justify-content: space-between;
    
+}
+.about >nav{
+    margin: 30px;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
 }

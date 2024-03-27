@@ -11,6 +11,7 @@ function Home() {
      <nav>About Us</nav>
         <nav>Services</nav>
         <nav>Gallery</nav>
+        <nav>Contact Us</nav>
      </div>
        
     </div>
